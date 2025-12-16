@@ -47,7 +47,6 @@ The blades were tested in a wind tunnel across a range of freestream velocities 
 
 </div>
 
-
 **Individual Contribution:**
 In this project, I contributed both to the analytical and experimental aspects. I developed the MATLAB modeling code which was used to evaluate blade design parameters and generate performance predictions. I was responsible for generating and organizing plots used to present design outcomes and experimental results. I worked closely with my group throughout the design process to select key parameters and refine the blade geometry. I also participated in the wind-tunnel testing procedure, and evaluation of our design objectives on the day of testing.
 
