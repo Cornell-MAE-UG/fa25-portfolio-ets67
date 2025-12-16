@@ -15,6 +15,16 @@ The design process began as parameter driven, ensuring complaince with the requi
      alt="Wind turbine blade CAD model"
      style="float:left; width:220px; margin:0 1rem 1rem 0;">
 
+
+<img src="/fa25-portfolio-ets67/assets/images/blade-image.jpg"
+     alt="Wind turbine blade CAD model"
+     style="float:left; width:220px; margin:0 1rem 1rem 0;">
+
+<img src="/fa25-portfolio-ets67/assets/images/testing-data.jpg"
+     alt="Wind turbine blade CAD model"
+     style="float:left; width:220px; margin:0 1rem 1rem 0;">
+
+
 **Testing Summary:**
 The blades were tested in a wind tunnel across a range of freestream velocities at a fixed rotational speed. We measured output torque, rotatonal speed, and power output, which were used to create a power- angular velocity curve and determine the optimaml opperating point. Experimental results were then compared against the model predicitions to evaulate design performance and identify sources of failure. 
 
