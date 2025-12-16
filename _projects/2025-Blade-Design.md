@@ -15,10 +15,10 @@ The design process began as parameter driven, ensuring complaince with the requi
 **Testing Summary:**
 The blades were tested in a wind tunnel across a range of freestream velocities at a fixed rotational speed. We measured output torque, rotatonal speed, and power output, which were used to create a power- angular velocity curve and determine the optimaml opperating point. Experimental results were then compared against the model predicitions to evaulate design performance and identify sources of failure. 
 
-**Results and Validation**
+**Results**
 <div style="display:flex; gap:32px; justify-content:center; flex-wrap:wrap; margin:2rem 0;">
 
-  <figure style="width:420px; text-align:center; margin:0;">
+  <figure style="width:460px; text-align:center; margin:0;">
     <img src="{{ '/assets/images/blade-cad.jpg' | relative_url }}"
          alt="Final blade CAD geometry"
          style="width:100%; border-radius:12px;">
@@ -27,7 +27,7 @@ The blades were tested in a wind tunnel across a range of freestream velocities 
     </figcaption>
   </figure>
 
-  <figure style="width:420px; text-align:center; margin:0;">
+  <figure style="width:460px; text-align:center; margin:0;">
     <img src="{{ '/assets/images/flow-power.jpg' | relative_url }}"
          alt="Predicted performance curves"
          style="width:100%; border-radius:12px;">
@@ -36,7 +36,7 @@ The blades were tested in a wind tunnel across a range of freestream velocities 
     </figcaption>
   </figure>
 
-  <figure style="width:420x; text-align:center; margin:0;">
+  <figure style="width:400x; text-align:center; margin:0;">
     <img src="{{ '/assets/images/testing-data.jpg' | relative_url }}"
          alt="Wind tunnel testing data"
          style="width:100%; border-radius:12px;">
