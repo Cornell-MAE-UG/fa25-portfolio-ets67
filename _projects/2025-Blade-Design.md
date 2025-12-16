@@ -15,8 +15,7 @@ The design process began as parameter driven, ensuring complaince with the requi
 **Testing Summary:**
 The blades were tested in a wind tunnel across a range of freestream velocities at a fixed rotational speed. We measured output torque, rotatonal speed, and power output, which were used to create a power- angular velocity curve and determine the optimaml opperating point. Experimental results were then compared against the model predicitions to evaulate design performance and identify sources of failure. 
 
-<h3>Results and Validation</h3>
-
+<**Results and Validation**
 <div style="display:flex; gap:24px; justify-content:center; flex-wrap:wrap; margin:1.5rem 0;">
 
   <figure style="width:300px; text-align:center; margin:0;">
