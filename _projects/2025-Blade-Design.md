@@ -11,6 +11,7 @@ For a class, we were asked to design wind-turbine blades that would be tested in
 **Design Process:**
 The design process began as parameter driven, ensuring complaince with the required constraints, and then became iterative, with paramets increased or decreased to maximize predicted power output. Our team began by first defining geometric and operational constraints, conducting background research, and then developing an analytical model. Major decisions involved selecting airfoil profile, chord distribution, twist distributions, and optimal tip-speed ratio. We designed a MATLAB based model  to evalualte the effects of these parameters on predicted torque and power output. Based on the model results, the blade geometry was refined to balance aerodynamic effeicency with structural and torque limitations before finalizing a design for manufacturing and testing. 
 
+Most curernt update 
 <div style="display:flex; gap:24px; align-items:flex-start; flex-wrap:wrap; margin:1rem 0;">
   <div style="flex:0 0 260px;">
     <img src="{{ '/assets/images/blade-cad.jpg' | relative_url }}"
