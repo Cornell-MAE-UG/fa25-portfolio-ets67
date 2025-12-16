@@ -5,44 +5,55 @@ description: Blade Design Project
 technologies: [Autodesk Fusion, Matlab]
 image: /assets/images/blade-image.jpg
 ---
+
+<figure style="float:left; width:260px; margin:0 1.5rem 1rem 0; text-align:center;">
+  <img src="{{ '/assets/images/blade-image.jpg' | relative_url }}"
+       alt="Wind turbine blade in wind tunnel"
+       style="width:100%; border-radius:12px;">
+  <figcaption style="font-size:0.9rem; color:#555; margin-top:0.4rem;">
+    Wind-tunnel test setup of the final blade design.
+  </figcaption>
+</figure>
+
 **Project Overview:**
 For a class, we were asked to design wind-turbine blades that would be tested in a wind tunnel and operate as a turbine. The project involved aerodynamic and structural design of wind-turbine blades for operation in a wind tunnel at a fixed angular velocity. The objective was to select blade geometry parameters, including airfoil selection, chord distribution, and twist profile, that would maximize the output power while also remaining within the torque, structural and geometric constraints provided. The project was evaluated in a low-Reynolds number environment, which required consideration of viscous effects and realistic operating conditions. 
 
 **Design Process:**
 The design process began as parameter driven, ensuring complaince with the required constraints, and then became iterative, with paramets increased or decreased to maximize predicted power output. Our team began by first defining geometric and operational constraints, conducting background research, and then developing an analytical model. Major decisions involved selecting airfoil profile, chord distribution, twist distributions, and optimal tip-speed ratio. We designed a MATLAB based model  to evalualte the effects of these parameters on predicted torque and power output. Based on the model results, the blade geometry was refined to balance aerodynamic effeicency with structural and torque limitations before finalizing a design for manufacturing and testing. 
+<div style="clear:both;"></div>
 
-Most curernt update  2
-<div style="display:flex; gap:18px; flex-wrap:nowrap; align-items:flex-start; margin:1rem 0;">
-  <!-- Image 1 -->
-  <figure style="margin:0; width:240px;">
+Most curernt update  3
+<div style="display:flex; gap:24px; flex-wrap:wrap; justify-content:center; margin:1.5rem 0;">
+  
+  <figure style="margin:0; width:300px; text-align:center;">
     <img src="{{ '/assets/images/blade-cad.jpg' | relative_url }}"
-         alt="Final blade CAD model"
-         style="width:100%; border-radius:10px;">
-    <figcaption style="font-size:0.9rem; color:#555; margin-top:0.4rem; line-height:1.2;">
-      Final blade CAD geometry (chord/twist distribution).
+         alt="Final blade CAD geometry"
+         style="width:100%; border-radius:12px;">
+    <figcaption style="font-size:0.95rem; color:#555; margin-top:0.5rem;">
+      Final blade CAD geometry (chord and twist distribution).
     </figcaption>
   </figure>
 
-  <!-- Image 2 -->
-  <figure style="margin:0; width:240px;">
+  <figure style="margin:0; width:300px; text-align:center;">
     <img src="{{ '/assets/images/flow-power.jpg' | relative_url }}"
-         alt="Power vs wind speed results"
-         style="width:100%; border-radius:10px;">
-    <figcaption style="font-size:0.9rem; color:#555; margin-top:0.4rem; line-height:1.2;">
+         alt="Predicted performance curves"
+         style="width:100%; border-radius:12px;">
+    <figcaption style="font-size:0.95rem; color:#555; margin-top:0.5rem;">
       Predicted performance curves used to select the operating point.
     </figcaption>
   </figure>
 
-  <!-- Image 3 -->
-  <figure style="margin:0; width:240px;">
+  <figure style="margin:0; width:300px; text-align:center;">
     <img src="{{ '/assets/images/testing-data.jpg' | relative_url }}"
-         alt="Experimental results from wind tunnel testing"
-         style="width:100%; border-radius:10px;">
-    <figcaption style="font-size:0.9rem; color:#555; margin-top:0.4rem; line-height:1.2;">
-      Wind-tunnel testing data used to validate the model.
+         alt="Wind tunnel testing data"
+         style="width:100%; border-radius:12px;">
+    <figcaption style="font-size:0.95rem; color:#555; margin-top:0.5rem;">
+      Wind-tunnel testing data used to validate the analytical model.
     </figcaption>
   </figure>
+
 </div>
+
 
 
 **Testing Summary:**
