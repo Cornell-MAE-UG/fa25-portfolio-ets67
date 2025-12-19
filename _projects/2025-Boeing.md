@@ -5,7 +5,6 @@ description: Ethical analysis of the Boeing 737 MAX incidents.
 image: /assets/images/boeing.jpg
 ---
 
-
 The Boeing 737 MAX incidents involved a series of crashes that occurred for many reasons, violating core engineering and ethical principles. Below these failures are investigated, key ethical issues are identified and solutions to prevent this in the future are given. The ethical concerns that are addressed can be be broken into three main questions: Should Boeing have downplayed the importance of MCAS or left it out of plane documentation? What was the effect of Boeing not taking original responsibility for the crashes? And should competition dictate design timelines and engineering decisions? 	
 
 Boeing downplaying the importance of MCAS and leaving it out of documentation was an underlying catalyst for the crashes. This decision impacted many stakeholders, including passengers, flight crews, airlines, the FAA and the general public. It initiated a chain of failures and the exclusion of MCAS must be considered first. 
